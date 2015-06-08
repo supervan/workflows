@@ -2,17 +2,27 @@
   "name": "workflows",
   "version": "0.0.1",
   "description": "A project to showcase workflows",
+<<<<<<< HEAD
+=======
   "main": "index.js",
+>>>>>>> b102d05fc38407d6bc5585630101f0a672e08812
   "repository": {
     "type": "git",
     "url": "https://github.com/supervan/workflows.git"
   },
+<<<<<<< HEAD
+  "author": "Ray Villalobos",
+=======
   "author": "Lyndon Bredenkamp",
+>>>>>>> b102d05fc38407d6bc5585630101f0a672e08812
   "devDependencies": {
     "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
     "gulp-coffee": "^2.3.1",
+<<<<<<< HEAD
     "gulp-compass": "^2.1.0",
+=======
+>>>>>>> b102d05fc38407d6bc5585630101f0a672e08812
     "gulp-concat": "^2.5.2",
     "gulp-util": "^3.0.5",
     "jquery": "^2.1.4",

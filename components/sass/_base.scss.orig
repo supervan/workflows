@@ -52,5 +52,9 @@ section {
  
 .artgroup {
     @include clearfix;
+<<<<<<< HEAD
+} //artgroup
+=======
 } //artgroup
  
+>>>>>>> b102d05fc38407d6bc5585630101f0a672e08812

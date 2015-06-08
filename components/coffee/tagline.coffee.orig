@@ -1,0 +1,8 @@
+$ = require 'jquery'
+<<<<<<< HEAD
+
+=======
+>>>>>>> b102d05fc38407d6bc5585630101f0a672e08812
+do fill = (item = 'The most creative minds in Art') ->
+  $('.tagline').append "#{item}"
+fill
