@@ -85,9 +85,11 @@ gulp.task('connect', function(){
 });
 
 gulp.task('html', function(){
-  gulp.src(htmlSources)
-    .pipe(gulpif(env === 'production', minifyHTML()))
-    .pipe(gulpif(env === 'production', gulp.dest(outputDir)))
+  gulp.src('builds/development/*.html')
+    .pipe(gulpif(env === 'production', minifyHTML())
+    .on('error', gutil.log))
+    .pipe(gulpif(env === 'production', gulp.dest(outputDir))
+    .on('error', gutil.log))
     .pipe(connect.reload())
 });
 
